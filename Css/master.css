@@ -1,6 +1,7 @@
 
 body{
     margin: 0;
+    line-height: 1.5;
 }
 
 
@@ -21,14 +22,14 @@ html{
 
 .wrapper{
     display: grid;
-    gap: 300px;
+    gap: 18.7rem;
 }
 
 
 /* Heading section */
 
 header{
-    padding: 45px 60px;
+    padding: 2.8rem 3.7rem;
 }
 
 header nav{
@@ -38,12 +39,12 @@ header nav{
 }
 
 header nav img {
-    height: 35px;
+    height: 2.1rem;
 }
 
 header nav a {
     text-decoration: none;
-    padding: 12px 40px;
+    padding: 0.75rem 2.5rem;
     border: var(--Light) 2px solid;
     border-radius: 30px;
     color: var(--Light);
@@ -59,22 +60,22 @@ header nav a {
 
 .heading-s .head{
     text-align: center;
-    margin: 100px 0px;
+    margin: 6.25rem 0;
 }
 
 .heading-s .head h2{
-    font-size: 60px;
+    font-size: 3.7rem;
 }
 
 .heading-s .head p {
-    font-size: 20px;
+    font-size: 1.5rem;
     width: 50%;
-    margin-left: 350px;
+    margin-left: 21.8rem;
     margin-bottom: 70px;
 }
 
 .heading-s .head a {
-    padding: 25px 80px;
+    padding: 1.2rem 5rem;
     color: var(--VeryPaleBlue);
     background-color: var(--Pink);
     border-radius: 50px;
@@ -84,10 +85,10 @@ header nav a {
 
 
 .statistics{
-    margin-top: 100px;
+    margin-top: 6.2rem;
     display: flex;
     justify-content: space-between;
-    gap: 500px; 
+    gap: 31.2rem; 
 }
 .statistics .state{
     display: flex;
@@ -96,19 +97,19 @@ header nav a {
     align-items: center;
 }
 .statistics .state img{
-    height: 30px;
-    width: 40px;
+    height: 1.8rem;
+    width: 2.5rem;
     align-self: flex-start;
 }
 
 .statistics .state h3{
-    font-size: 80px;
+    font-size: 5rem;
     margin: 0;
     font-weight: 600;
 }
 
 .statistics .state p{
-    font-size: 19px;
+    font-size: 1.2rem;
     font-weight: 500;
     color: #ddd;
     margin: 0;
@@ -124,15 +125,15 @@ header nav a {
 .features{
     display: flex;
     flex-direction: column;
-    gap: 150px;
+    gap: 9.3rem;
 }
 
 .features .top-section img{
-    transform: translate(0px , 160px);
+    transform: translate(0px , 10rem);
     width: 100%;
 }
 .features .bottom-section img{
-    transform: translate(0px , -160px);
+    transform: translate(0px , -10rem);
     width: 100%;
 }
 
@@ -140,18 +141,18 @@ header nav a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 550px;
+    height: 34.3rem;
     /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
     background-color: #f6fbff;
 }
 
 .feature .text-f{
-    margin-left: 100px;
+    margin-left: 6.2rem;
     flex: 1; 
 }
 
 .feature .text-f h4{
-    font-size: 40px;
+    font-size: 2.5rem;
     margin: 0;
 }
 .feature .text-f p{
@@ -170,11 +171,11 @@ header nav a {
 
  .feature:nth-child(4){
     flex-direction: row-reverse;
-    margin: 0px 22px;
+    margin: 0px 1.3rem;
     background-color:transparent;
  }
  .feature:nth-child(4) .text-f{
-    margin-left: 120px;
+    margin-left: 7.5rem;
 }
 
 .feature:nth-child(4) .text-f p{
@@ -195,22 +196,22 @@ header nav a {
 
 .footer-top{
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 3.1rem;
 }
 .footer-top h4{
- font-size: 30px;   
+ font-size: 2rem;   
 }
 .footer-top a{
-    padding: 20px 80px;
+    padding: 1.2rem 5rem;
     color: var(--VeryPaleBlue);
     background-color: var(--Pink);
-    border-radius: 50px;
+    border-radius: 3.1rem;
     text-decoration: none;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .curve-footer{
-    transform: translate(0px,210px);
+    transform: translate(0,13.1rem);
 }
 .curve-footer img{
     width: 100%;
@@ -218,74 +219,74 @@ header nav a {
 .footer-bottom{
     background-color: var(--VeryDarkCyan);
     color: var(--VeryPaleBlue);
-    margin-top: 200px;
+    margin-top: 12.5rem;
     display: flex;
-    padding-top: 80px;
-    padding-bottom: 40px;
+    padding-top: 5rem;
+    padding-bottom: 2.5rem;
     justify-content: space-between;
-    gap: 150px;
+    gap: 9.3rem;
     align-items: center;
 }
 
 
 .footer-bottom .left{
-    padding-left: 60px;
+    padding-left: 3.7rem;
     flex: 1;   
 }
 
 
-.footer-logo{
+/* .footer-logo{
     background-color: white;
-}
+} */
 
 .footer-bottom .left p{
-    font-size: 14px;
+    font-size: 1rem;
     width: 58%;
 }
 .footer-bottom .left .phone{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 1.2rem;
 }
 
 .footer-bottom .left .email{
-    gap: 20px;
+    gap: 1.2rem;
     display: flex;
     align-items: center;
 }
 
 .footer-bottom .left .social{
-    padding: 40px 0px;
-    margin-top: 50px;
+    padding: 2.5rem 0;
+    margin-top: 3.1rem;
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 0.9rem;
 }
 
 .footer-bottom .right{
-    padding-right: 60px;
+    padding-right: 3.7rem;
     flex: 1;
     align-self: flex-start;   
 }
 .footer-bottom .right h5{
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: 500;
     padding: 0;
     margin: 0;
     text-transform: uppercase;
 }
 .footer-bottom .right p{
-    font-size: 14px;
+    font-size: 1rem;
     width: 60%;
     padding: 10px 0px 50px 0px;
 }
 .footer-bottom .right .form form{
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 1.8rem;
 }
 input[type=email]{
-    height: 40px;
+    height: 2.5rem;
     width: 58%;
     border-radius: 10px;
 }
@@ -293,7 +294,7 @@ input[type=email]{
 input[type=submit]{
     color: var(--VeryPaleBlue);
     background-color: var(--Pink);
-    padding: 12px 50px;
+    padding: 0.7rem 3.1rem;
     border-radius: 10px;
 }
 
@@ -322,20 +323,20 @@ input[type=submit]{
     /* Header  */
 
     header{
-        padding:15px 15px;
+        padding:1rem 1rem;
  
     }
     header nav{
         justify-content: flex-start;
         align-items: center;
-        gap: 120px;
+        gap: 8.4rem;
     }
     header nav img{
-        height: 20px;
+        height: 1.2rem;
     }
     header nav a{
-        padding: 4px 14px;
-        font-size: 11px;
+        padding: 0.25rem 0.9rem;
+        font-size: 0.7rem;
         font-weight: 500;
     }
     .heading-s{
@@ -343,31 +344,31 @@ input[type=submit]{
     }
     .heading-s .head{
         text-align: left;
-        margin: 100px 0px;
+        margin: 6.2rem 0;
         display: flex;
         flex-direction: column;
     }   
 
     .heading-s .head h2{
-        font-size: 25px;
+        font-size: 1.5rem;
         text-align: center;
     }
     .heading-s .head p{
-        font-size: 14px;
+        font-size: 0.9rem;
         width: 95%;
         text-align: center;
-        margin: 0 0 70px 0;
+        margin: 0 0 4.4rem 0;
     }
     .heading-s .head a {
 
-    padding: 12px 40px;
-    width: 46%;
-    margin-left:50px;
+    padding: 0.75rem 2.5rem;
+    width: 47%;
+    margin-left:3.1rem;
     text-align: center;
     }
 
     .heading-s img{
-        width: 330px;
+        width: 21rem;
         height: auto;
 
     }
@@ -376,7 +377,7 @@ input[type=submit]{
     .statistics{
         flex-direction: column;
         align-items: flex-start;
-        gap: 200px;
+        gap: 12.5rem;
         margin-left: 20%;
     }
 
@@ -386,32 +387,32 @@ input[type=submit]{
 .features{
     display: flex;
     flex-direction: column;
-    gap: 150px;
+    gap: 9.4rem;
 }
 
 .feature{
     flex-direction: column-reverse;
     justify-content: flex-start;
     align-items: flex-start;
-    height: 525px;
+    height: 32.8rem;
 }
 
 .feature .text-f{
-    margin-left: 20px;
-    margin-top: 50px;
+    margin-left: 1.2rem;
+    margin-top: 3.1rem;
 }
 
 
 .feature .text-f h4{
    
-    font-size: 25px;
+    font-size: 1.6rem;
     text-align: center;
     
 }
 .feature .text-f p{
     text-align: center;
     width: 95%;
-    font-size: 14px;
+    font-size: 0.9rem;
 }
 .feature .logo-f{
  width: 100%;
@@ -420,7 +421,8 @@ input[type=submit]{
 }
 .feature .logo-f img{
     margin-top: 7%;
-    margin-left:7% ;
+    width: 80%;
+    
 }
 
 
@@ -428,57 +430,59 @@ input[type=submit]{
     flex-direction: column-reverse;
     justify-content: flex-start;
     align-items: center;
-    height: 525px;
-    gap: 30px;
+    height: 32.8rem;
+    gap: 1.9rem;
  }
  .feature:nth-child(4) .text-f{
-    margin-left: 20px;
+    margin-left: 1.2rem;
 }
 
 .feature:nth-child(4) .text-f p{
     text-align: center;
     width: 95%;
-    font-size: 14px;
+    font-size: 0.9rem;
  }  
 
- 
+ .feature:nth-child(4) .logo-f img{
+    margin-left: 10%;
+ }
+
 
 
 /* Footer section */
 
 
 .footer-top h4{
-    font-size: 25px;
+    font-size: 1.6rem;
 }
 .footer-top a{
-    padding: 12px 40px;
-    font-weight: 700;
+    padding: 0.75rem 2.5rem;
 }
 .footer-bottom{
     flex-direction: column-reverse;
 }
 .footer-bottom .left{
-    padding: 0px 30px;
+    padding: 0 1.9rem;
 }
 .footer-logo{
-    height: 30px;
+    height: 1.9rem;
 }
 
 .footer-bottom .left p{
-    font-size: 13px;
+    font-size: 0.8rem;
     width: 95%;
     font-weight: 500;
 }
 .footer-bottom .left .social{
-    padding: 0px;
+    padding: 0;
 
 }
 
 .footer-bottom .right{
-    padding: 0px 30px;
+    padding: 0 1.9rem;
 }
 .footer-bottom .right p{
-font-size: 13px;
+font-size: 0.8rem;
 width: 95%;
 
 }
@@ -486,12 +490,12 @@ width: 95%;
 flex-direction: column;
     }
     input[type=email]{
-        height: 45px;
+        height: 2.8rem;
         width: 95%;
 
     }
     input[type=submit]{
-        padding: 12px 40px;
+        padding: 0.75rem 2.5rem;
         align-self: flex-end;
     }
 }
