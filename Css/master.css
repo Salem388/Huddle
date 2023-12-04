@@ -340,7 +340,7 @@ input[type=submit]{
         font-weight: 500;
     }
     .heading-s{
-        align-items : stretch
+        align-items : stretch;
     }
     .heading-s .head{
         text-align: left;
