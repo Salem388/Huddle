@@ -406,11 +406,7 @@ input[type=submit]{
     width: 95%;
     font-size: 0.9rem;
 }
-.feature .logo-f{
- width: 100%;
- 
 
-}
 .feature .logo-f img{
     margin-top: 7%;
     width: 80%;
@@ -435,7 +431,7 @@ input[type=submit]{
     font-size: 0.9rem;
  }  
 
- .feature:nth-child(4) .logo-f img{
+ .feature .logo-f img{
     margin-left: 10%;
  }
 
