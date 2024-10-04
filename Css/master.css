@@ -23,7 +23,6 @@ html{
 .wrapper{
     display: grid;
     gap: 18.7rem;
-    overflow: hidden;
 }
 
 
